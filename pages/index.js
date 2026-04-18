@@ -71,7 +71,7 @@ function getNextState(step, input, data) {
     case 'contact':
       if (input === 'Need to Think') {
         return {
-          text: "No problem. Reach us anytime:\n\n📞 **[YOUR NUMBER]**\n📧 brabcorenyc@gmail.com\n\n**Hours:** Weekdays 3:30–10PM · Weekends 8AM–8PM\nEmergency: 24/7 at premium rate.",
+          text: "No problem. Reach us anytime:\n\n📞 **[6465982375]**\n📧 brabcorenyc@gmail.com\n\n**Hours:** Weekdays 3:30–10PM · Weekends 8AM–8PM\nEmergency: 24/7 at premium rate.",
           chips: ['Start Over'],
           next: 'done',
         };
@@ -267,7 +267,7 @@ export default function Home() {
             </div>
           </div>
           <div style={{ marginTop: 4, fontFamily: 'monospace', fontSize: 9, color: '#3a3f4a', letterSpacing: '0.08em' }}>
-            📞 [YOUR NUMBER] · Weekdays 3:30–10PM · Weekends 8AM–8PM · Emergency 24/7
+            📞 [6465982375] · Weekdays 3:30–10PM · Weekends 8AM–8PM · Emergency 24/7
           </div>
         </div>
 
